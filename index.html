@@ -11,12 +11,37 @@
     <div class="chatbot">
         <div class="chatbot-header">
             <div class="mainhead">
-                <image src="chatbot.png" alt="chatbot-img" height="30px"></image>
+                <div class="img">
+                    <image src="chatbot.png" alt="chatbot-img" height="20px"></image>
+                </div>
                 <h2>Chatbot</h2>
-                <button><i class="fa-solid fa-angle-down"></i></button>
+            </div>
+            <button><i class="fa-solid fa-angle-down"></i></button>
+        </div>
+        <div class="chatbot-body">
+            <div class="chat-reply">
+                <image src="chatbot.png" alt="chatbot-img" height="30px"></image>
+                <p>Hey there!<br>How can I help you today?</p>
+            </div>
+            <div class="msg">
+                Hello, please introduce yourself.
+            </div>
+            <div class="bot-thinking">
+                <i class="fa-regular fa-circle" style="font-size:10px"></i>
+                <i class="fa-regular fa-circle" style="font-size:10px"></i>
+                <i class="fa-regular fa-circle" style="font-size:10px"></i>
             </div>
         </div>
-        <div class="chatbot-body"></div>
+        <div class="chatbot-footer">
+            <div class="type-msg">
+                <textarea id="type" placeholder="Enter the message"></textarea>
+            </div>
+            <div class="icons">
+                <button><i class="fa-regular fa-face-smile"></i></button>
+                <button><i class="fa-solid fa-paperclip"></i></button>
+                <button><i class="fa-solid fa-arrow-up"></i></button>
+            </div>
+        </div>
     </div>
     <script src="chatbot.js"></script>
 </body>
